@@ -1,0 +1,5 @@
+EmployeeId,firstName,lastName,employeeRole,emailId,phoneNumber,totalLeaves
+1,John,Doe,Software Engineer,john.doe@example.com,78890,30
+2,Jane,Smith,Product Manager,jane.smith@example.com,42481,30
+3,Warner,Jay,Software Engineer,Warner.doe@example.com,12890,30
+4,Marsh,Max,Product Manager,Marsh.smith@example.com,23481,30

@@ -1,0 +1,23 @@
+###
+GET http://localhost:4004/odata/v4/leavesrv/Employees
+
+
+
+###
+POST http://localhost:4004/odata/v2/leavesrv/applyLeave
+Content-Type: application/json
+
+{
+    "employeeId": 2,
+    "startDate": "2024-07-01",
+    "endDate": "2024-07-03",
+    "description": "Vacation leave"
+}
+
+###
+POST http://localhost:4004/odata/v4/leavesrv/getLeaveBalance
+Content-Type: application/json
+
+{
+    "employeeId": 3
+}

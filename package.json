@@ -1,0 +1,40 @@
+{
+  "name": "leaveback",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@cap-js-community/odata-v2-adapter": "^1.12.11",
+    "@sap/cds": "^7",
+    "@sap/cds-hana": "^2",
+    "express": "^4",
+    "nodemailer": "^6.9.14"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7",
+    "@sap/eslint-plugin-cds": "^3",
+    "eslint": "^9"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "[development]": {
+          "kind": "sqlite"
+        },
+        "[production]": {
+          "kind": "hana"
+        }
+      },
+      "auth": "mocked"
+    },
+    "cov2ap": {
+      "plugin": true
+    }
+  }
+}
