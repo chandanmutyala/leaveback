@@ -2,6 +2,10 @@
 GET http://localhost:4004/odata/v4/leavesrv/Employees
 
 
+###
+GET http://localhost:4004/odata/v4/leavesrv/Leaves
+
+
 
 ###
 POST http://localhost:4004/odata/v2/leavesrv/applyLeave
@@ -11,7 +15,7 @@ Content-Type: application/json
     "employeeId": 2,
     "startDate": "2024-07-01",
     "endDate": "2024-07-03",
-    "description": "Vacation leave"
+    "description": "Sick leave"
 }
 
 ###
@@ -19,5 +23,15 @@ POST http://localhost:4004/odata/v4/leavesrv/getLeaveBalance
 Content-Type: application/json
 
 {
-    "employeeId": 3
+    "employeeId": 2
+}
+
+
+###
+POST http://localhost:4004/odata/v4/leavesrv/approveLeave
+Content-Type: application/json
+
+{
+    "leaveId": "86b76c50-9f06-4a17-95c3-5e955af98a2e",
+    "approve": true
 }

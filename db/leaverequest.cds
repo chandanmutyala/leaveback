@@ -5,6 +5,7 @@ entity Leaves {
     startDate : Date;
     endDate : Date;
     description : String;
+    status : String; // e.g., "Pending", "Approved", "Rejected"
 }
 
 entity Employees {

@@ -1,5 +1,6 @@
 EmployeeId,firstName,lastName,employeeRole,emailId,phoneNumber,totalLeaves
-1,John,Doe,Software Engineer,john.doe@example.com,78890,30
-2,Jane,Smith,Product Manager,jane.smith@example.com,42481,30
-3,Warner,Jay,Software Engineer,Warner.doe@example.com,12890,30
-4,Marsh,Max,Product Manager,Marsh.smith@example.com,23481,30
+1,Chandan,Mutyala,Software Engineer,chandan.mutyala@cytechies.com,78890,30
+2,Anil,Keerthi,Product Manager,anil.keerthi@cytechies.com,42481,30
+3,Manasa,Arella,Software Engineer,manasa.arella@cytechies.com,12890,30
+4,Bhagya,Laxmi,Product Manager,bhagyalakshmi.tatkalitam@cytechies.com,23481,30
+5,Bindu Sri,Tati,Software Engineer,bindusri.tati@cytechies.com,54632,30
